@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YANI PRAJAPATI - Your Health Companion</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light blue-gray background */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #cbd5e1; /* Light gray track */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #60a5fa; /* Blue thumb */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3b82f6; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-lg p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="#" class="text-3xl font-bold tracking-wide rounded-lg p-2 transition duration-300 ease-in-out hover:bg-white hover:text-blue-600">YANI PRAJAPATI</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-blue-200 text-lg font-medium transition duration-300 ease-in-out rounded-md px-3 py-2 hover:bg-blue-500">Home</a></li>
+                    <li><a href="#about" class="hover:text-blue-200 text-lg font-medium transition duration-300 ease-in-out rounded-md px-3 py-2 hover:bg-blue-500">About Us</a></li>
+                    <li><a href="#services" class="hover:text-blue-200 text-lg font-medium transition duration-300 ease-in-out rounded-md px-3 py-2 hover:bg-blue-500">Services</a></li>
+                    <li><a href="#contact" class="hover:text-blue-200 text-lg font-medium transition duration-300 ease-in-out rounded-md px-3 py-2 hover:bg-blue-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-br from-blue-500 to-indigo-600 text-white h-screen flex items-center justify-center p-4 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://placehold.co/1920x1080/4299E1/FFFFFF?text=Healthy+Lifestyle');"></div>
+        <div class="relative z-10 text-center max-w-4xl mx-auto">
+            <h1 class="text-6xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-down">
+                Empowering Your Journey to <span class="text-yellow-300">Optimal Health</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 opacity-90 animate-fade-in-up">
+                At YANI PRAJAPATI, we believe in a holistic approach to well-being.
+            </p>
+            <a href="#services" class="bg-white text-blue-700 hover:bg-blue-100 px-10 py-4 text-xl font-bold rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 animate-bounce-in">
+                Explore Our Health Solutions
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-white py-16 md:py-24 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="https://placehold.co/600x400/93C5FD/FFFFFF?text=About+Health" alt="About Us" class="rounded-2xl shadow-xl w-full h-auto object-cover transform transition duration-500 ease-in-out hover:scale-105">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-5xl font-extrabold text-blue-700 mb-6">About YANI PRAJAPATI</h2>
+                <p class="text-lg leading-relaxed text-gray-700 mb-6">
+                    We are dedicated to providing comprehensive and accessible information to help you lead a healthier, happier life. Our mission is to empower individuals with the knowledge and tools they need to make informed decisions about their well-being. From nutrition tips to mental health resources, we cover it all.
+                </p>
+                <p class="text-lg leading-relaxed text-gray-700">
+                    Our team of experts is passionate about health and wellness, striving to deliver accurate, up-to-date, and actionable advice. We believe that small, consistent steps can lead to significant improvements in your overall health. Join us on this journey!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-100 py-16 md:py-24 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-5xl font-extrabold text-blue-700 mb-12">Our Health Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Service Card 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-6xl text-green-500 mb-6">🌿</div>
+                    <h3 class="text-3xl font-semibold text-gray-900 mb-4">Nutritional Guidance</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Discover personalized meal plans, healthy recipes, and expert advice to fuel your body and mind effectively. Achieve your dietary goals with ease.
+                    </p>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-6xl text-red-500 mb-6">🏋️‍♀️</div>
+                    <h3 class="text-3xl font-semibold text-gray-900 mb-4">Fitness & Exercise</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        From beginner workouts to advanced routines, find tailored exercise plans that fit your lifestyle and help you stay active and strong.
+                    </p>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-6xl text-purple-500 mb-6">🧘‍♀️</div>
+                    <h3 class="text-3xl font-semibold text-gray-900 mb-4">Mental Well-being</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Explore resources for stress management, mindfulness, and emotional health to cultivate inner peace and resilience.
+                    </p>
+                </div>
+                <!-- Service Card 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-6xl text-yellow-500 mb-6">💧</div>
+                    <h3 class="text-3xl font-semibold text-gray-900 mb-4">Hydration & Detox</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Learn the importance of proper hydration and discover natural ways to detoxify your body for enhanced vitality.
+                    </p>
+                </div>
+                <!-- Service Card 5 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-6xl text-indigo-500 mb-6">😴</div>
+                    <h3 class="text-3xl font-semibold text-gray-900 mb-4">Sleep Optimization</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Improve your sleep quality with our tips and techniques for better rest, leading to increased energy and focus.
+                    </p>
+                </div>
+                <!-- Service Card 6 -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-6xl text-pink-500 mb-6">💖</div>
+                    <h3 class="text-3xl font-semibold text-gray-900 mb-4">Preventative Care</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Understand the best practices for preventative health to reduce risks and maintain long-term wellness.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-5xl font-extrabold mb-6">Ready to Transform Your Health?</h2>
+            <p class="text-xl mb-10 opacity-90">
+                Join the YANI PRAJAPATI community and embark on a journey to a healthier, happier you.
+            </p>
+            <a href="#contact" class="bg-white text-blue-700 hover:bg-blue-100 px-10 py-4 text-xl font-bold rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Get Started Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-white py-16 md:py-24 px-4">
+        <div class="container mx-auto text-center max-w-2xl">
+            <h2 class="text-5xl font-extrabold text-blue-700 mb-12">Contact Us</h2>
+            <p class="text-lg leading-relaxed text-gray-700 mb-8">
+                Have questions or want to learn more? Reach out to us using the form below, and we'll get back to you as soon as possible.
+            </p>
+            <form class="space-y-6">
+                <input type="text" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200">
+                <input type="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200">
+                <textarea placeholder="Your Message" rows="6" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"></textarea>
+                <button type="submit" class="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 shadow-md">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-10 px-4">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2025 YANI PRAJAPATI. All rights reserved.</p>
+            <div class="mt-4 flex justify-center space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Facebook</a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Twitter</a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Instagram</a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
